@@ -1,4 +1,4 @@
-def FindPosition(grid : list, n):
+def PrintMove(grid : list, n):
     #Find Bot Position
     for y in range(n):
         for x in range(n):
@@ -60,4 +60,5 @@ n = int(input())
 #Make Grid
 for i in range(n):
     grid.append(list(input()))
-FindPosition(grid, n)
+#Print Move
+PrintMove(grid, n)
